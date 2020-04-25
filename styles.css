@@ -1,0 +1,94 @@
+
+/* General stylings */
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+    color: #3f3d56;
+}
+
+.white-section{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.grey-section{
+    background-color: #e0ebe8;
+    padding: 4% auto;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    width: 12%;
+    border-width: 4px;
+}
+
+.check-holder{
+    text-align: center;
+}
+
+.category{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.checkwinner-btn{
+    width: 15%;
+    margin-top: 6%;
+}
+
+.cards{
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.vote-div{
+    margin-top: 20px;
+}
+
+.cand-img{
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.categories-container{
+    width:95%;
+    margin: 0 auto;
+}
+
+.sections{
+    padding: 3% 3%;
+    text-align: center;
+}
+
+.result-holder{
+    display: none;
+    padding: 3% 4%;
+    text-align: center;
+}
+
+.result-text{
+    font-weight: bold;
+}
+
+.footer-text{
+    margin-top: 2%;
+}
+
+
+/* media queries */
+@media screen and (max-width:900px){
+    hr{
+        width: 16%;
+    }
+} 
+
+@media screen and (max-width:767px){
+    hr{
+        width: 24%;
+    }
+}
